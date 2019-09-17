@@ -333,6 +333,12 @@
     _increaseBtn.layer.borderColor = [borderColor CGColor];
 }
 
+- (void)setButtonBackgroundColor:(UIColor *)buttonBackgroundColor {
+    _buttonBackgroundColor = buttonBackgroundColor;
+    _decreaseBtn.backgroundColor = buttonBackgroundColor;
+    _increaseBtn.backgroundColor = buttonBackgroundColor;
+}
+
 - (void)setButtonTitleFont:(CGFloat)buttonTitleFont
 {
     _buttonTitleFont = buttonTitleFont;
