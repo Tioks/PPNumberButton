@@ -68,6 +68,8 @@ IB_DESIGNABLE
 
 /** 设置边框的颜色,如果没有设置颜色,就没有边框 */
 @property (nonatomic, strong ) IBInspectable UIColor *borderColor;
+/** 设置按钮的背景颜色,如果没有设置颜色,默认白色 */
+@property (nonatomic, strong ) IBInspectable UIColor *buttonBackgroundColor;
 
 /** 输入框中的内容 */
 @property (nonatomic, assign ) CGFloat currentNumber;
