@@ -100,7 +100,7 @@
     _textField = [[UITextField alloc] init];
     _textField.delegate = self;
     _textField.textAlignment = NSTextAlignmentCenter;
-    _textField.keyboardType = UIKeyboardTypeDecimalPad;
+    _textField.keyboardType = UIKeyboardTypeNumberPad;
     _textField.font = [UIFont systemFontOfSize:_inputFieldFont];
     if (self.decimalNum) {
         _textField.text = [NSString stringWithFormat:@"%.1f",_minValue];
